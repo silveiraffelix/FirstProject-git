@@ -1,0 +1,180 @@
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px; 
+}
+
+.menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.button-h {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFF77; 
+    cursor: pointer;   
+}
+
+.img-wide {
+    width: 595.18px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    height: 164px;
+    letter-spacing: 0.596154px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.learn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 0.4;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 750px) {
+
+    .menu {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+        margin: 0;
+    }
+    .button-h {
+        
+        height: 31px;
+        width: 91px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;  
+        position: absolute;
+        right: 15px;
+        top: 17px;   
+    }
+    
+    section {
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    main {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 0;
+    }
+
+    h1 {
+        position: absolute;
+        top: 124px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        width: auto;
+   
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        width: auto;
+        height: 165px;
+        margin: 0 40px;
+        position: absolute;
+        top: 213px;
+    }
+
+    .learn {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        width: auto;
+        height: 27px;
+        display: block;
+        margin: 0 123px;
+        position: absolute;
+        top: 404px;
+        bottom: 0;
+    }
+
+    .img-wide {
+        position: relative;
+        top: 410px;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+        height: auto;
+        width: auto;
+    }
+    
+}
